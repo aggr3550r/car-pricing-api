@@ -3,8 +3,9 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-    "email": "neves@grider.com",
-    "password": "neves"
+    "email": "kobil@kippa.africa",
+    "username": "Salim Kobi",
+    "password": "kobi"
 }
 
 ### Signin an existing user
@@ -13,8 +14,8 @@ POST http://localhost:3000/auth/signin
 content-type: application/json
 
 {
-    "email": "neves@grider.com",
-    "password": "neves"
+    "email": "kobil@kippa.africa",
+    "password": "kobi"
 }
 
 ### Signout the currently signed in user
@@ -22,7 +23,7 @@ POST http://localhost:3000/auth/signout
 
 ### Find a particular user with ID
    
-GET http://localhost:3000/auth/10
+GET http://localhost:3000/auth/2
 
 ### Find all users registered with a given email
 
@@ -30,7 +31,7 @@ GET http://localhost:3000/auth?email=asdf@asdf.com
 
 
 ### Delete a user with a given ID
-DELETE http://localhost:3000/auth/3
+DELETE http://localhost:3000/auth/15
 
 
 ### Update a user with a given ID

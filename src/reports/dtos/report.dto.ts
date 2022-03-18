@@ -25,5 +25,12 @@ export class ReportDTO{
     @Transform(({obj}) => obj.user.id)
     @Expose()
     userID: number;
-   
+
+    @Transform(({obj}) => obj.user.email)
+    @Expose()
+    userEmail: string;
+
+    @Transform(({obj}) => obj.user.username)
+    @Expose()
+    username: string;
 }

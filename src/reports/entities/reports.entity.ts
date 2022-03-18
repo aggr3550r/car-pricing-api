@@ -10,7 +10,7 @@ export class Report
 
     @Column()
     price: number;
-
+    
     @Column()
     make: string;
 

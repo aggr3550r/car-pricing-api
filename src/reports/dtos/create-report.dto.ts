@@ -15,7 +15,7 @@ export class CreateReportDTO{
     @Min(1930)
     @Max(2050)
     year: number;
-
+    
     @IsNumber()
     @IsNotEmpty()
     @Min(35)

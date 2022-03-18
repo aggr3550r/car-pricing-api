@@ -6,6 +6,7 @@ content-type: application/json
 {
     "make": "chevy",
     "model": "wyatt",
+    "username": "Neves Grider",
     "mileage": 50000,
     "year": 1982,
     "lng": 45,
