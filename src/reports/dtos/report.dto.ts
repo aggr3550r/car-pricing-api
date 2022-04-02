@@ -2,7 +2,7 @@ import { Expose, Transform } from "class-transformer";
 import { User } from "src/users/entities/user.entity";
 
 
-export class ReportDTO{
+export class ReportDTO {
     @Expose()
     id: number;
     @Expose()
